@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors:{
         "back" : "#292d33",
-        "khakestari" : "#d9d9d9 "
+        "khakestari" : "#d9d9d9 ",
+        "narenji" : "#eb6928"
       }
     },
   },
