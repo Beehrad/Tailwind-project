@@ -582,6 +582,10 @@ li {
   margin-bottom: 2rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -604,6 +608,18 @@ li {
 
 .w-\[450px\] {
   width: 450px;
+}
+
+.w-\[0px\] {
+  width: 0px;
+}
+
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[600px\] {
+  width: 600px;
 }
 
 .flex-1 {
@@ -763,6 +779,16 @@ li {
 .after\:content-\[\*\]::after {
   --tw-content: *;
   content: var(--tw-content);
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1280px) {
