@@ -534,6 +534,18 @@ li {
   position: relative;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -664,6 +676,34 @@ li {
 
 .w-\[100\%\] {
   width: 100%;
+}
+
+.w-\[-75\] {
+  width: -75;
+}
+
+.w-\[-75\%\] {
+  width: -75%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
+}
+
+.w-\[5\%\] {
+  width: 5%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-1\/5 {
+  width: 20%;
 }
 
 .flex-1 {
@@ -810,9 +850,180 @@ li {
   text-decoration-line: none;
 }
 
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:z-0::before {
+  content: var(--tw-content);
+  z-index: 0;
+}
+
+.before\:z-\[-10\]::before {
+  content: var(--tw-content);
+  z-index: -10;
+}
+
+.before\:z-\[z-10\]::before {
+  content: var(--tw-content);
+  z-index: z-10;
+}
+
+.before\:z-\[-1\]::before {
+  content: var(--tw-content);
+  z-index: -1;
+}
+
+.before\:ml-80::before {
+  content: var(--tw-content);
+  margin-left: 20rem;
+}
+
+.before\:mt-\[-200px\]::before {
+  content: var(--tw-content);
+  margin-top: -200px;
+}
+
+.before\:mt-\[-100px\]::before {
+  content: var(--tw-content);
+  margin-top: -100px;
+}
+
+.before\:mt-\[-50px\]::before {
+  content: var(--tw-content);
+  margin-top: -50px;
+}
+
+.before\:mt-\[-10px\]::before {
+  content: var(--tw-content);
+  margin-top: -10px;
+}
+
+.before\:mt-\[-5px\]::before {
+  content: var(--tw-content);
+  margin-top: -5px;
+}
+
+.before\:mt-\[20px\]::before {
+  content: var(--tw-content);
+  margin-top: 20px;
+}
+
+.before\:mt-\[50px\]::before {
+  content: var(--tw-content);
+  margin-top: 50px;
+}
+
+.before\:mt-\[60px\]::before {
+  content: var(--tw-content);
+  margin-top: 60px;
+}
+
+.before\:ml-20::before {
+  content: var(--tw-content);
+  margin-left: 5rem;
+}
+
+.before\:ml-24::before {
+  content: var(--tw-content);
+  margin-left: 6rem;
+}
+
+.before\:ml-32::before {
+  content: var(--tw-content);
+  margin-left: 8rem;
+}
+
+.before\:ml-2::before {
+  content: var(--tw-content);
+  margin-left: 0.5rem;
+}
+
+.before\:mt-\[40px\]::before {
+  content: var(--tw-content);
+  margin-top: 40px;
+}
+
+.before\:mt-\[0px\]::before {
+  content: var(--tw-content);
+  margin-top: 0px;
+}
+
+.before\:mt-\[350px\]::before {
+  content: var(--tw-content);
+  margin-top: 350px;
+}
+
+.before\:mt-\[35px\]::before {
+  content: var(--tw-content);
+  margin-top: 35px;
+}
+
+.before\:ml-3::before {
+  content: var(--tw-content);
+  margin-left: 0.75rem;
+}
+
+.before\:h-4\/5::before {
+  content: var(--tw-content);
+  height: 80%;
+}
+
+.before\:h-3\/5::before {
+  content: var(--tw-content);
+  height: 60%;
+}
+
+.before\:w-4\/5::before {
+  content: var(--tw-content);
+  width: 80%;
+}
+
+.before\:bg-narenji::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 105 40 / var(--tw-bg-opacity));
+}
+
+.before\:content-\[\'45\'\]::before {
+  --tw-content: '45';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'4\'\]::before {
+  --tw-content: '4';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
+}
+
+.after\:z-20::after {
+  content: var(--tw-content);
+  z-index: 20;
+}
+
+.after\:z-10::after {
+  content: var(--tw-content);
+  z-index: 10;
+}
+
+.after\:z-0::after {
+  content: var(--tw-content);
+  z-index: 0;
+}
+
+.after\:m-\[-20px\]::after {
+  content: var(--tw-content);
+  margin: -20px;
 }
 
 .after\:mr-20::after {
@@ -845,9 +1056,219 @@ li {
   margin-right: -40px;
 }
 
+.after\:mr-\[0\]::after {
+  content: var(--tw-content);
+  margin-right: 0;
+}
+
+.after\:mt-\[0\]::after {
+  content: var(--tw-content);
+  margin-top: 0;
+}
+
+.after\:mt-0::after {
+  content: var(--tw-content);
+  margin-top: 0px;
+}
+
+.after\:mr-\[-20px\]::after {
+  content: var(--tw-content);
+  margin-right: -20px;
+}
+
+.after\:ml-\[-20px\]::after {
+  content: var(--tw-content);
+  margin-left: -20px;
+}
+
+.after\:ml-\[20px\]::after {
+  content: var(--tw-content);
+  margin-left: 20px;
+}
+
+.after\:ml-\[660px\]::after {
+  content: var(--tw-content);
+  margin-left: 660px;
+}
+
+.after\:mt-\[\]::after {
+  content: var(--tw-content);
+  margin-top: ;
+}
+
+.after\:mt-\[300px\]::after {
+  content: var(--tw-content);
+  margin-top: 300px;
+}
+
+.after\:ml-\[200px\]::after {
+  content: var(--tw-content);
+  margin-left: 200px;
+}
+
+.after\:ml-\[00px\]::after {
+  content: var(--tw-content);
+  margin-left: 00px;
+}
+
+.after\:ml-\[400px\]::after {
+  content: var(--tw-content);
+  margin-left: 400px;
+}
+
+.after\:mr-\[400px\]::after {
+  content: var(--tw-content);
+  margin-right: 400px;
+}
+
+.after\:mr-\[-px\]::after {
+  content: var(--tw-content);
+  margin-right: -px;
+}
+
+.after\:mr-\[-50px\]::after {
+  content: var(--tw-content);
+  margin-right: -50px;
+}
+
+.after\:mr-\[-500px\]::after {
+  content: var(--tw-content);
+  margin-right: -500px;
+}
+
+.after\:ml-\[\]::after {
+  content: var(--tw-content);
+  margin-left: ;
+}
+
+.after\:ml-52::after {
+  content: var(--tw-content);
+  margin-left: 13rem;
+}
+
+.after\:ml-\[80px\]::after {
+  content: var(--tw-content);
+  margin-left: 80px;
+}
+
+.after\:ml-\[800px\]::after {
+  content: var(--tw-content);
+  margin-left: 800px;
+}
+
+.after\:ml-\[900px\]::after {
+  content: var(--tw-content);
+  margin-left: 900px;
+}
+
+.after\:ml-\[4\]::after {
+  content: var(--tw-content);
+  margin-left: 4;
+}
+
+.after\:ml-10::after {
+  content: var(--tw-content);
+  margin-left: 2.5rem;
+}
+
+.after\:ml-16::after {
+  content: var(--tw-content);
+  margin-left: 4rem;
+}
+
+.after\:ml-32::after {
+  content: var(--tw-content);
+  margin-left: 8rem;
+}
+
+.after\:ml-72::after {
+  content: var(--tw-content);
+  margin-left: 18rem;
+}
+
+.after\:ml-80::after {
+  content: var(--tw-content);
+  margin-left: 20rem;
+}
+
+.after\:mt-\[-50px\]::after {
+  content: var(--tw-content);
+  margin-top: -50px;
+}
+
+.after\:mb-60::after {
+  content: var(--tw-content);
+  margin-bottom: 15rem;
+}
+
+.after\:mb-\[\]::after {
+  content: var(--tw-content);
+  margin-bottom: ;
+}
+
+.after\:mb-\[150px\]::after {
+  content: var(--tw-content);
+  margin-bottom: 150px;
+}
+
+.after\:mt-\[-\]::after {
+  content: var(--tw-content);
+  margin-top: -;
+}
+
+.after\:mt-\[-200px\]::after {
+  content: var(--tw-content);
+  margin-top: -200px;
+}
+
+.after\:box-border::after {
+  content: var(--tw-content);
+  box-sizing: border-box;
+}
+
+.after\:box-content::after {
+  content: var(--tw-content);
+  box-sizing: content-box;
+}
+
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
 .after\:contents::after {
   content: var(--tw-content);
   display: contents;
+}
+
+.after\:h-4\/5::after {
+  content: var(--tw-content);
+  height: 80%;
+}
+
+.after\:w-4\/5::after {
+  content: var(--tw-content);
+  width: 80%;
+}
+
+.after\:w-8::after {
+  content: var(--tw-content);
+  width: 2rem;
+}
+
+.after\:w-4::after {
+  content: var(--tw-content);
+  width: 1rem;
+}
+
+.after\:w-\[\]::after {
+  content: var(--tw-content);
+  width: ;
+}
+
+.after\:w-\[200px\]::after {
+  content: var(--tw-content);
+  width: 200px;
 }
 
 .after\:bg-orange-600::after {
@@ -869,6 +1290,31 @@ li {
 
 .after\:content-\[\*\]::after {
   --tw-content: *;
+  content: var(--tw-content);
+}
+
+.after\:content-\[\;\]::after {
+  --tw-content: ;;
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:content-\[hi\]::after {
+  --tw-content: hi;
+  content: var(--tw-content);
+}
+
+.after\:content-\[-hi\]::after {
+  --tw-content: -hi;
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'45\'\]::after {
+  --tw-content: '45';
   content: var(--tw-content);
 }
 
@@ -968,6 +1414,21 @@ li {
     font-size: 3rem;
     line-height: 1;
   }
+
+  .md\:before\:ml-80::before {
+    content: var(--tw-content);
+    margin-left: 20rem;
+  }
+
+  .md\:before\:mt-\[60px\]::before {
+    content: var(--tw-content);
+    margin-top: 60px;
+  }
+
+  .md\:before\:ml-52::before {
+    content: var(--tw-content);
+    margin-left: 13rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -983,6 +1444,16 @@ li {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:before\:ml-80::before {
+    content: var(--tw-content);
+    margin-left: 20rem;
+  }
+
+  .lg\:before\:mt-\[60px\]::before {
+    content: var(--tw-content);
+    margin-top: 60px;
   }
 }
 
