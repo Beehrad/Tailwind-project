@@ -770,6 +770,11 @@ li {
   margin-left: 5rem;
 }
 
+.after\:mr-20::after {
+  content: var(--tw-content);
+  margin-right: 5rem;
+}
+
 .after\:bg-orange-600::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
